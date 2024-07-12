@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+iframe {
+    width: 100%;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
