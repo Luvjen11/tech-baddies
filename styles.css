@@ -5,13 +5,22 @@ body {
     background-color: #fff;
 }
 
+iframe {
+    width: 100%;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
 header {
     background-color: #DEE9D3;
     height: 100px;
 }
 
 .image {
-    width: 10%;
+    width: 5%;
     margin: auto;
 }
 
@@ -25,4 +34,9 @@ header {
 .text {
      display: flex;
      flex-direction: row;
+}
+
+button {
+    background-color: black;
+    padding: 40px;
 }
