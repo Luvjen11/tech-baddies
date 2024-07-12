@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -13,13 +12,10 @@ header {
 }
 
 #image {
-    width: 10%;
+    width: 9%;
     margin: 0 auto;
 }
 
-.content {
-    margin: 70px;
-}
 
 .sec1 {
     display: flex;
@@ -44,6 +40,45 @@ button {
    padding: 10px;
    color: #fff;
    width: 50%;
+   cursor: pointer;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.sec2 {
+   background-color: #DEE9D3;
+   display: flex;
+   flex-direction: row;
+   padding: 100px;
+}
+
+
+.hours {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 20px 10px 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: 40px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+.location {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 20px 10px 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: 40px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
 }
 
 .menu-list {
@@ -51,23 +86,45 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0;
+    margin: 0 100px 50px 100px;
     align-items: center;
 }
 
 .menu-item {
-    padding: auto;
+    background-color: #DEE9D3;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+    width: 23%;
+    margin: 10px;
+    height: 330px;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 iframe {
     border-radius: 10px;
-    width: 30%;
-    height: 30%;
+    box-sizing: border-box;
 }
 
 .reservation {
     background-color: #dfe7d6;
-    padding: 20px;
+    padding: 100px;
     border-radius: 8px;
     margin: 0;
+}
+
+.reservation button {
+    width: 20%;
+}
+
+h1 {
+    padding: 0 50px;
 }
